@@ -9,7 +9,7 @@ import java.util.HashMap;
  *
  * @author Jian Shi
  * @loginID: shij3
- * @email: shij3@student.unimelb.edu.au
+ * @email: shijianhzchina@gmail.com
  * @date: 9/21/2017 01:17
  *
  * The program take inputs from the command line, verify whether the number

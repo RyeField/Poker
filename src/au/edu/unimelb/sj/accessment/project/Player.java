@@ -10,7 +10,7 @@ import java.util.HashSet;
  *
  * @author Jian Shi
  * @loginID: shij3
- * @email: shij3@student.unimelb.edu.au
+ * @email: shijianhzchina@gmail.com
  * @date: 9/22/2017 00:45
  *
  * The Player class is representing the player in the poker game, It handle

@@ -5,7 +5,7 @@ package au.edu.unimelb.sj.accessment.project;
  *
  * @author Jian Shi
  * @loginID: shij3
- * @email: shij3@student.unimelb.edu.au
+ * @email: shijianhzchina@gmail.com
  * @date: 9/21/2017 22:01
  *
  * The Suit enum help to form the poker cards, judge the input cards, classify
