@@ -1,5 +1,3 @@
-package au.edu.unimelb.sj.accessment.project;
-
 /**
  * This is a Rank enum which store all the possible rank value in a poker
  *
