@@ -1,5 +1,3 @@
-package au.edu.unimelb.sj.accessment.project;
-
 /**
  * This is a Suit enum which store all the possible suit value in a poker
  *
