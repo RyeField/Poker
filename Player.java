@@ -1,5 +1,3 @@
-package au.edu.unimelb.sj.accessment.project;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
