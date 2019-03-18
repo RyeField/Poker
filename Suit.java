@@ -2,7 +2,6 @@
  * This is a Suit enum which store all the possible suit value in a poker
  *
  * @author Jian Shi
- * @loginID: shij3
  * @email: shijianhzchina@gmail.com
  * @date: 9/21/2017 22:01
  *

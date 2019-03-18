@@ -6,7 +6,6 @@ import java.util.HashMap;
  * would characterise the hand card for each user and decides the winners.
  *
  * @author Jian Shi
- * @loginID: shij3
  * @email: shijianhzchina@gmail.com
  * @date: 9/21/2017 01:17
  *
@@ -44,10 +43,10 @@ public class Poker {
         //Initialize a Player type array players to store all the players
         Player[] players = new Player[numOfPlayers];
         //Using HashMap to store the priority for each player
-        HashMap<Integer, Integer> priority = new HashMap<>(numOfPlayers);
+        Map<Integer, Integer> priority = new HashMap<>(numOfPlayers);
         //Define 2 arraylist to store candidate winners and winners
-        ArrayList<Integer> potentialWinners = new ArrayList<>();
-        ArrayList<Integer> winners = new ArrayList<>();
+        List<Integer> potentialWinners = new ArrayList<>();
+        List<Integer> winners = new ArrayList<>();
 
         initCards();
 

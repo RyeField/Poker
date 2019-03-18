@@ -7,7 +7,6 @@ import java.util.HashSet;
  * characterise the player's card.
  *
  * @author Jian Shi
- * @loginID: shij3
  * @email: shijianhzchina@gmail.com
  * @date: 9/22/2017 00:45
  *
@@ -38,11 +37,11 @@ public class Player {
     private static final int PRIORITY_HC = 9;
 
     //Define 2 arraylist to store rank and suit in
-    private ArrayList<Rank> ranks = new ArrayList<>(MAX_HAND_NUM);
-    private ArrayList<Suit> suits = new ArrayList<>(MAX_HAND_NUM);
+    private List<Rank> ranks = new ArrayList<>(MAX_HAND_NUM);
+    private List<Suit> suits = new ArrayList<>(MAX_HAND_NUM);
     //Define 2 HashSet to store unique rank and suit in
-    private HashSet<Rank> distinctRank = new HashSet<>();
-    private HashSet<Suit> distinctSuit = new HashSet<>();
+    private Set<Rank> distinctRank = new HashSet<>();
+    private Set<Suit> distinctSuit = new HashSet<>();
 
     //Define a array to store the sorted unique rank
     private Rank[] sortedDistinctRank;
