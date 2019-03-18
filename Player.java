@@ -7,7 +7,6 @@ import java.util.HashSet;
  * characterise the player's card.
  *
  * @author Jian Shi
- * @loginID: shij3
  * @email: shijianhzchina@gmail.com
  * @date: 9/22/2017 00:45
  *

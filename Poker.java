@@ -6,7 +6,6 @@ import java.util.HashMap;
  * would characterise the hand card for each user and decides the winners.
  *
  * @author Jian Shi
- * @loginID: shij3
  * @email: shijianhzchina@gmail.com
  * @date: 9/21/2017 01:17
  *
