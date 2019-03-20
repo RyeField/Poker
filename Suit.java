@@ -31,7 +31,7 @@ public enum Suit {
 
     //get the suit field value
     public String getSuit() {
-        return suit;
+        return this.suit;
     }
 
     /**
