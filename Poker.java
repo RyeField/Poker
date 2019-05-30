@@ -67,7 +67,7 @@ public class Poker {
              * Situation 3 with only one player
              * do not need to compare and do not need print winner
              */
-            ArrayList<String> hand = new ArrayList<>(MAX_HAND_NUM);
+            List<String> hand = new ArrayList<>(MAX_HAND_NUM);
             for (int i = 0; i < MAX_HAND_NUM; i++) {
                 hand.add(args[i].toUpperCase());
             }
@@ -89,7 +89,7 @@ public class Poker {
              * Print the classification of each players' hand cards
              */
             for (int i = 1; i <= numOfPlayers; i++) {
-                ArrayList<String> hand = new ArrayList<>(MAX_HAND_NUM);
+                List<String> hand = new ArrayList<>(MAX_HAND_NUM);
                 for (int k = (i - 1) * MAX_HAND_NUM; k < i * MAX_HAND_NUM; k++){
                     hand.add(args[k].toUpperCase());
                 }

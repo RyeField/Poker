@@ -59,7 +59,7 @@ public class Player {
      *
      * @param hand - The input card array
      */
-    public Player(ArrayList<String> hand) {
+    public Player(List<String> hand) {
         for (String card : hand) {
             Rank rank = Rank.valueOf(Rank.getName(card.substring(0, 1)));
             Suit suit = Suit.valueOf(Suit.getName(card.substring(1, 2)));
@@ -235,7 +235,7 @@ public class Player {
     private boolean isTwoPair() {
         //if the card is Two Pair then the number of unique rank is 3
         if (distinctRank.size() == 3 && !this.isThreeofaKind()) {
-            ArrayList<Integer> countPosition = new ArrayList<>();
+            List<Integer> countPosition = new ArrayList<>();
             int[] count = new int[distinctRank.size()];
             for (Rank rank : ranks) {
                 for (int i = 0; i < distinctRank.size(); i++) {
